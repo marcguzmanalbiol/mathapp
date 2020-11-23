@@ -1,0 +1,61 @@
+html {
+    font-family: 'Work Sans', serif;
+    color: black;
+    background: white;
+}
+
+h1 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+}
+
+.titleIndexContainer {
+    margin: 50px;
+}
+
+.horizontalIndexLine {
+    background: #4285F4;
+    height: 2px;
+    margin: auto;
+    width: 50%;
+}
+
+.listIndexContainer{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.listIndexContainer a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.listIndexContainer a:hover {
+    background-color: #ccc;
+}
+
+.listIndexContainer a.active {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
