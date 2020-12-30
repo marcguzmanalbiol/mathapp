@@ -1,0 +1,122 @@
+html {
+    font-family: 'Work Sans', serif;
+    color: black;
+    background: white;
+}
+
+h1 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 72px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.titleIndexContainer {
+    margin: 50px;
+}
+
+.horizontalContentsLine {
+    background: #4285F4;
+    height: 2px;
+    margin: auto;
+    width: 55%;
+}
+
+.contentsContainer {
+    width: 75%;
+    margin: 80px auto auto;
+    columns: 6 auto;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 32px;
+    page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    width: inherit;
+}
+
+img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.imageContainer img {
+    border-radius: 10px;
+}
+
+.imageText {
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    padding-bottom: 24px;
+}
+
+.headerMenu {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(.44643vw + 12.57143px);
+}
+
+.headerMenu li {
+    margin: 0 calc(1.42857vw + 3.42857px);
+    position: relative;
+}
+
+a:hover {
+    color: #1a3aff;
+}
+
+a {
+    text-decoration: none;
+}
+
+body a {
+    color: inherit;
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.headerMenu .icon, .headerMenu a {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 0;
+    position: relative;
+}
+
+.headerMenu .icon {
+    margin-right: 5px;
+}
+
+
+
