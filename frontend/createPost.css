@@ -1,3 +1,9 @@
+.container {
+    min-height: 300px;
+    width: 75%;
+    margin: auto;
+}
+
 html {
     font-family: 'Work Sans', serif;
     color: black;
@@ -20,7 +26,7 @@ h2 {
     font-size: 20px;
     font-weight: 200;
     line-height: 72px;
-    margin: 0 0 10px;
+    margin: 0 0 24px;
     text-align: center;
 }
 
@@ -28,45 +34,11 @@ h2 {
     margin: 50px;
 }
 
-.horizontalContentsLine {
-    background: #4285F4;
+.horizontalIndexLine {
+    background: #1a3aff;
     height: 2px;
     margin: auto;
     width: 55%;
-}
-
-.contentsContainer {
-    width: 75%;
-    margin: 80px auto auto;
-    columns: 6 auto;
-}
-
-.imageContainer {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 32px;
-    page-break-inside: avoid;
-    -webkit-column-break-inside: avoid;
-    width: inherit;
-}
-
-img:hover {
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.imageContainer img {
-    border-radius: 10px;
-}
-
-.imageText {
-    font-weight: bold;
-    margin-top: 10px;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
 }
 
 .header {
@@ -118,5 +90,43 @@ body a {
     margin-right: 5px;
 }
 
+.indexContentsContainer {
+    width: 75%;
+    margin: 24px auto auto;
+    text-align: center;
+}
 
+.indexContentsContainer img{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
 
+.indexSectionContainer {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 24px auto auto;
+}
+
+.sectionElement h1 {
+    margin-bottom: 0;
+}
+
+.sectionElement {
+    display: flex;
+    flex-direction: column;
+    width: calc(33.3% - 30px);
+    align-items: flex-start;
+    margin-right: 30px;
+}
+
+p {
+    line-height: 1.3;
+}
+
+#saveButton {
+    margin: auto auto 25px;
+    height: 40px;
+    width: 40px;
+}
